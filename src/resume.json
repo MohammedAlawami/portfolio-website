@@ -1,0 +1,99 @@
+{
+  "name": "Mohammed Alawami",
+  "objective": "An Electical and Computer Engineering student graduating in June '19, intrested in software development, and backend web development",
+  "linkedin": "https://www.linkedin.com/in/Malawami",
+  "github": "https://github.com/MohammedAlawami",
+  "email": "mohammed.h.awami@gmail.com",
+  "aboutMe": "I am a student at Oregon State University, studying Electical and Computer Engineering, and taking a minor in Computer Science. I have a passion for learning the art of coding and programming, currently I'm self-learning the MERN stack for web development.",
+  "experince": [
+    {
+      "position": "Software Developer Intern",
+      "companyName": "Enterprise Computing Services",
+      "companyAddress": "Corvallis, OR. ",
+      "date": "September 2018 – April 2019",
+      "summary": "Worked with a team of developers to develop and implementing integration tests in Python for Express and Groovey API",
+      "duties": [
+        "Implementing APIs",
+        "Debugged and reporting bugs in API's and dev portal.",
+        "Implementing API integration tests",
+        "Creating Docker containers for softwares"
+      ]
+    }
+  ],
+  "education": {
+    "schoolName": "Oregon State University",
+    "GPA": "3.25",
+    "gradDate": "June 2019",
+    "major": "Bachelor of Science, Electrical and Computer Engineering.",
+    "meta": [
+      "Minor in Computer Science.",
+      "Related coursework: C/C++ programming, Operating Systems, Software verification and validation, Computer Architecture, Data Structures, Web Development, Microcontrollers, System Verilog."
+    ]
+  },
+  "projects": [
+    {
+      "name": "Automated Greenhouse",
+      "date": "Sep 2018 - May 2019",
+      "description": "Designed a system that monitor the environment inside a greenhouse, and automate the process of growing plants in a safe environment. The system includes soil moister sensors and a temperature sensor connected to Wi-Fi modules to communicate with the hub, an irrigation system, an exhaust fan. Built website to view",
+      "skills": [
+        ["Python", "python"],
+        ["C", "code"],
+        ["PHP", "php"],
+        ["JavaScript", "code"],
+        ["Operating System", "computer"],
+        ["Web Development", ""],
+        ["Database", "database"]
+      ],
+      "githubLink": ""
+    },
+    {
+      "name": "Alarm Clock with FM Radio using Atmega128",
+      "date": "Fall 2017",
+      "description": "Designed and built a stereo FM alarm clock radio with inside/ outside temperature indications using two AVR microcontrollers, ATMEGA 128 and ATMEGA 48. Included features, volume control, clock control, brightness auto control, and used 7-sigment display and an LCD. Communication protocols that were used were UART, SPI, I2C, as well as Timer/Counter, PWM and ADC.",
+      "skills": [
+        ["Embeded programming", "code"],
+        ["Embedded C", "code"],
+        ["microcontrollers"]
+      ],
+      "githubLink": ""
+    },
+    {
+      "name": "Power Supply",
+      "date": "Fall 2016",
+      "description": "Designed and built a two channel power supply, designed a rectifier with a positive and a negative channel, providing 16 volts to a voltage regulator to output voltage from 2V-12V.",
+      "skills": [["Electronics"], ["MOSFET"], ["AC to DC"]],
+      "githubLink": ""
+    },
+    {
+      "name": "Shell program",
+      "date": "Winter 2018",
+      "description": "Programmed my own small shell program. Implemented features are: cd, status, exit, redirection, foreground and background processes, signals, as well as comands useing execvp.",
+      "skills": [["Operating System", "computer"], ["C", "code"]],
+      "githubLink": ""
+    },
+    {
+      "name": "One-time-Pads (OTP) Encryption Program",
+      "date": "Winter 2018",
+      "description": "Created five programs, two clients and two servers that encrypt and decrypt information using a onetimepad, and a key generator.",
+      "skills": [["Operating System", "computer"], ["C", "code"]],
+      "githubLink": ""
+    },
+    {
+      "name": "Black Jack game",
+      "date": "Spring 2016",
+      "description": "Programmed a Black Jack game in C++ using classes, the game designed to play against a dealer and allows for single and multipliers.",
+      "skills": [["C++", "code"]],
+      "githubLink": ""
+    }
+  ],
+  "skills": [
+    ["python.png", "Python"],
+    ["javascript.png", "JavaScript"],
+    ["js.png", "NodeJs"],
+    ["favicon.ico", "React"],
+    ["cpp.jpg", "C++"],
+    ["php.png", "PHP"],
+    ["database.png", "Database"],
+    ["c.jpg", "C"]
+  ]
+}
