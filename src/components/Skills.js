@@ -23,7 +23,7 @@ class Skills extends React.Component {
   render() {
     return (
       <Container text id="Skills">
-        <Segment basic clearing>
+        <Segment basic clearing textAlign="left">
           {this.listSkills()}
         </Segment>
       </Container>

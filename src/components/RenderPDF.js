@@ -15,6 +15,9 @@ class RenderPDF extends Component {
         <Document file={resume} onLoadSuccess={this.onDocumentLoadSuccess}>
           <Page pageNumber={1} />
         </Document>
+        <a href={resume} target="_blank">
+          Print
+        </a>
       </Segment>
     );
   }

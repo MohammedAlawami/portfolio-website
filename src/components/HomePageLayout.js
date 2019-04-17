@@ -65,7 +65,7 @@ const HomePageLayout = () => (
       style={{ padding: "5em 0em" }}
     >
       <Container text>
-        <Segment basic clearing>
+        <Segment basic textAlign="center">
           <a
             href={`mailto:${resume.email}`}
             style={{ color: "Black" }}
