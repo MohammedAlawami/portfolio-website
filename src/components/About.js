@@ -1,22 +1,15 @@
 import React, { Component } from "react";
-import { Segment, Image, Container } from "semantic-ui-react";
+import { Image, Container, Grid } from "semantic-ui-react";
 import resume from "../resume";
 
 class About extends Component {
-  render() {
+  renderAboutMe() {
     return (
-      <Container
-        textAlign="justified"
-        style={{ margin: "1em", padding: "0em 5em 0em 5em" }}
-        id="About Me"
-      >
-        <Segment
-          basic
-          clearing
-          style={{
-            margin: "0em 0em 0em 0em"
-          }}
-          size="huge"
+      <Grid stackable verticalAlign="middle" textAlign="center">
+        <Grid.Column
+          width={4}
+          verticalAlign="middle"
+          style={{ paddingRight: "0em" }}
         >
           <Image
             src={"/HWI.JPG"}
@@ -26,15 +19,30 @@ class About extends Component {
             avatar
             style={{
               height: "auto",
-              width: "17em"
+              width: "18em"
             }}
           />
-          <Segment basic clearing>
-            <p style={{ fontSize: "1.5em" }}>{resume.aboutMe}</p>
-          </Segment>
-        </Segment>
-      </Container>
+        </Grid.Column>
+        <Grid.Column
+          width={10}
+          verticalAlign="middle"
+          style={{ paddingLeft: "0em" }}
+        >
+          <Container text textAlign="justified">
+            <p
+              style={{
+                fontSize: "1.5em"
+              }}
+            >
+              {resume.aboutMe}
+            </p>
+          </Container>
+        </Grid.Column>
+      </Grid>
     );
+  }
+  render() {
+    return <Container id="About Me">{this.renderAboutMe()}</Container>;
   }
 }
 

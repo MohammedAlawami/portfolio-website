@@ -66,15 +66,8 @@ DesktopContainer.propTypes = {
 };
 
 class MobileContainer extends Component {
-  state = {};
-
-  handleSidebarHide = () => this.setState({ sidebarOpened: false });
-
-  handleToggle = () => this.setState({ sidebarOpened: true });
-
   render() {
     const { children } = this.props;
-    const { sidebarOpened } = this.state;
 
     return (
       <Responsive
@@ -82,23 +75,21 @@ class MobileContainer extends Component {
         getWidth={getWidth}
         maxWidth={Responsive.onlyMobile.maxWidth}
       >
-        <Sidebar.Pusher dimmed={sidebarOpened}>
-          <Segment
-            inverted
-            color="blue"
-            tertiary
-            textAlign="center"
-            style={{ minHeight: 500, padding: "1em 1em" }}
-            vertical
-          >
-            <Container>
-              <MenuNavbar mobile />
-            </Container>
-            <HomePageHeader mobile />
-          </Segment>
+        <Segment
+          inverted
+          color="blue"
+          tertiary
+          textAlign="center"
+          style={{ minHeight: 500, padding: "1em 1em" }}
+          vertical
+        >
+          <Container>
+            <MenuNavbar mobile />
+          </Container>
+          <HomePageHeader mobile />
+        </Segment>
 
-          {children}
-        </Sidebar.Pusher>
+        {children}
       </Responsive>
     );
   }
