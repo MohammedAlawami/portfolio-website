@@ -65,23 +65,23 @@
       "githubLink": ""
     },
     {
-      "name": "Shell program",
+      "name": "Shell Program",
       "date": "Winter 2018",
       "description": "Programmed my own small shell program. Implemented features are: cd, status, exit, redirection, foreground and background processes, signals, as well as comands useing execvp.",
       "skills": [["Operating System", "computer"], ["C", "code"]],
       "githubLink": ""
     },
     {
-      "name": "One-time-Pads (OTP) Encryption Program",
+      "name": "One-Time-Pads (OTP) Encryption Program",
       "date": "Winter 2018",
       "description": "Created five programs, two clients and two servers that encrypt and decrypt information using a onetimepad, and a key generator.",
       "skills": [["Operating System", "computer"], ["C", "code"]],
       "githubLink": ""
     },
     {
-      "name": "Black Jack game",
+      "name": "Black Jack Game",
       "date": "Spring 2016",
-      "description": "Programmed a Black Jack game in C++ using classes, the game designed to play against a dealer and allows for single and multipliers.",
+      "description": "Programmed a Black Jack game in C++ using classes, the game designed to play against a dealer and allows for single and multiplayer.",
       "skills": [["C++", "code"]],
       "githubLink": ""
     }
@@ -91,9 +91,11 @@
     ["javascript.png", "JavaScript"],
     ["js.png", "NodeJs"],
     ["favicon.ico", "React"],
+    ["flask.png", "Flask"],
     ["cpp.jpg", "C++"],
     ["php.png", "PHP"],
     ["database.png", "Database"],
-    ["c.jpg", "C"]
+    ["c.jpg", "C"],
+    ["docker.jpg", "Docker"]
   ]
 }
