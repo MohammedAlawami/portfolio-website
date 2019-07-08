@@ -24,10 +24,10 @@ const getWidth = () => {
  * It can be more complicated, but you can create really flexible markup.
  */
 class DesktopContainer extends Component {
-  state = {};
+  // state = {};
 
-  hideFixedMenu = () => this.setState({ fixed: false });
-  showFixedMenu = () => this.setState({ fixed: true });
+  // hideFixedMenu = () => this.setState({ fixed: false });
+  // showFixedMenu = () => this.setState({ fixed: true });
 
   render() {
     const { children } = this.props;
@@ -47,7 +47,6 @@ class DesktopContainer extends Component {
             style={{ minHeight: 500, padding: "1em 0em" }}
             vertical
             tertiary
-            className="hero-image"
           >
             <Container>
               <MenuNavbar />
@@ -80,7 +79,7 @@ class MobileContainer extends Component {
           color="blue"
           tertiary
           textAlign="center"
-          style={{ minHeight: 500, padding: "1em 1em" }}
+          style={{ minHeight: 500, padding: "1em 0em" }}
           vertical
         >
           <Container>

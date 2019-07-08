@@ -5,10 +5,10 @@ import resume from "../resume";
 class Skills extends React.Component {
   listSkills() {
     return (
-      <Grid columns={4} doubling>
+      <Grid columns={4} mobile={2} doubling>
         <Grid.Row>
           {resume.skills.map((skill, key) => (
-            <Grid.Column key={key}>
+            <Grid.Column key={key} stretched>
               <Label image size="large" style={{ margin: "0.5em" }}>
                 <img src={skill[0]} />
                 {skill[1]}

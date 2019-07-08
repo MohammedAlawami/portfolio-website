@@ -12,7 +12,7 @@ class About extends Component {
           style={{ paddingRight: "0em" }}
         >
           <Image
-            src={"/HWI.JPG"}
+            src={"/HWI2.JPG"}
             size="medium"
             floated="left"
             circular

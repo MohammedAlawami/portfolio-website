@@ -4,6 +4,7 @@ import ResponsiveContainer from "./ResponsiveContainer";
 import About from "./About";
 import ExperienceList from "./ExperienceList";
 import Education from "./Education";
+import Certificate from "./Certificate";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import resume from "../resume";
@@ -40,6 +41,13 @@ const HomePageLayout = () => (
     <Container style={{ padding: "2em 0em" }}>
       <Container text>
         <Education />
+      </Container>
+    </Container>
+
+    <DividerLine iconName="certificate" title="Certificate" />
+    <Container style={{ padding: "2em 0em" }}>
+      <Container text>
+        <Certificate />
       </Container>
     </Container>
 
