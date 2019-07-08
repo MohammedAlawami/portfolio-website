@@ -1,9 +1,11 @@
 {
   "name": "Mohammed Alawami",
+  "profilePic": "/expo.jpg",
   "objective": "An Electical and Computer Engineering graduate, intrested in Embedded Programming, Software Development, Web Development, and Data Science",
   "linkedin": "https://www.linkedin.com/in/Malawami",
   "github": "https://github.com/MohammedAlawami",
   "email": "mohammed.h.awami@gmail.com",
+  "aboutMePic": "/HWI2.JPG",
   "aboutMe": "I graduated from Oregon State University on June '19, with an Electical and Computer Engineering degree, and a minor in Computer Science. I have a passion for learning the art of coding and programming, currently I'm taking intrest in Data Science, and learing how to analyze, and make use of big data collections.",
   "experince": [
     {

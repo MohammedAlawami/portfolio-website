@@ -1,9 +1,10 @@
 import React from "react";
 import { Image } from "semantic-ui-react";
+import resume from "../resume";
 
 const ProfileImage = () => (
   <Image
-    src="/expo.jpg"
+    src={resume.profilePic}
     size="small"
     circular
     centered
