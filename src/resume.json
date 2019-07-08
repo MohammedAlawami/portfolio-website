@@ -1,10 +1,10 @@
 {
   "name": "Mohammed Alawami",
-  "objective": "An Electical and Computer Engineering student graduating in June '19, intrested in software development, and backend web development",
+  "objective": "An Electical and Computer Engineering graduate, intrested in Embedded Programming, Software Development, Web Development, and Data Science",
   "linkedin": "https://www.linkedin.com/in/Malawami",
   "github": "https://github.com/MohammedAlawami",
   "email": "mohammed.h.awami@gmail.com",
-  "aboutMe": "I am a student at Oregon State University, studying Electical and Computer Engineering, and taking a minor in Computer Science. I have a passion for learning the art of coding and programming, currently I'm self-learning the MERN stack for web development.",
+  "aboutMe": "I graduated from Oregon State University on June '19, with an Electical and Computer Engineering degree, and a minor in Computer Science. I have a passion for learning the art of coding and programming, currently I'm taking intrest in Data Science, and learing how to analyze, and make use of big data collections.",
   "experince": [
     {
       "position": "Software Developer Intern",
@@ -28,6 +28,18 @@
     "meta": [
       "Minor in Computer Science.",
       "Related coursework: C/C++ programming, Operating Systems, Software verification and validation, Computer Architecture, Data Structures, Web Development, Microcontrollers, System Verilog."
+    ]
+  },
+  "certificates": {
+    "certificateName": "Data Science with Python",
+    "date": "June 2019",
+    "credentialURL": "https://certificates.simplicdn.net/share/1293733.pdf",
+    "meta": [
+      "Data Analytics",
+      "Data Visualization",
+      "Machine Learning",
+      "Web Scraping",
+      "Natural Language Processing"
     ]
   },
   "projects": [

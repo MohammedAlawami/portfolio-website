@@ -3,7 +3,7 @@ import { Image } from "semantic-ui-react";
 
 const ProfileImage = () => (
   <Image
-    src="/profile_picture.JPG"
+    src="/expo.jpg"
     size="small"
     circular
     centered
